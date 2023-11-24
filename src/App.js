@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import WeatherApp from './Components/WeatherApp/WeatherApp';
+document.body.style.background = 'radial-gradient(rgb(0,0,0) 0%,rgb(64,64,64) 90.2%)';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WeatherApp/>
+      
     </div>
   );
 }
