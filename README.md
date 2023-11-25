@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-This is a weather app is developed using reactJS. Weather is displayed according to the city entered by the user. Current Weather data is collected using API from OpenWeatherMap and the weather information like Temperature, Weather condition, Humidity and Wind Speed according to the city is displayed.
+This is a weather app developed using reactJS. Weather is displayed according to the city entered by the user. Current Weather data is collected using API from OpenWeatherMap and the weather information like Temperature, Weather condition, Humidity and Wind Speed according to the city is displayed.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
