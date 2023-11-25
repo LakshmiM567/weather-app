@@ -41,9 +41,13 @@ const WeatherApp = () => {
         {
             setWicon(clear_icon);
         }
-        else if(data.weather[0].icon==="02d" || data.weather[0].icon==="02n")
+        else if(data.weather[0].icon==="02d") 
         {
             setWicon(cloud_icon);
+        }
+        else if(data.weather[0].icon==="02n")
+        {
+            setWicon(snow_icon)
         }
         else if(data.weather[0].icon==="03d" || data.weather[0].icon==="03n")
         {
@@ -55,7 +59,7 @@ const WeatherApp = () => {
         }
         else if(data.weather[0].icon==="04n")
         {
-            setWicon(snow_icon);
+            setWicon(clear_icon);
         }
         else if(data.weather[0].icon==="09d" || data.weather[0].icon==="09n")
         {
